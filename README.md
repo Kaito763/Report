@@ -28,9 +28,9 @@
     * 必須用以下指令來開啟 Camera Node:ros2 launch turtlebot3_bringup camera.launch.py format:=RGB888
     * 按造官網的文件 開啟的Camera Node是無法透過RQT預覽影像的
 * **結論:**
-    *TurtleBOT 官方所提供的 ROS文件 "不完全可用" !!!
-    *一旦斷線必須重新開機
-    *資料來源:https://emanual.robotis.com/docs/en/platform/turtlebot3/slam/#run-slam-node
+    * TurtleBOT 官方所提供的 ROS文件 "不完全可用" !!!
+    * 一旦斷線必須重新開機
+    * 資料來源:https://emanual.robotis.com/docs/en/platform/turtlebot3/slam/#run-slam-node
 
   
   
