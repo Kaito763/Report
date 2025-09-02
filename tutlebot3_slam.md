@@ -1,4 +1,5 @@
 # tutlebot3_slam
+## 請先完成 turtlebot3_setup
 ## 攝影
 * **在raspberry pi上**
     * $ ssh username@ip 
