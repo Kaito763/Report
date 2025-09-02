@@ -86,7 +86,7 @@
   
    * $ source ~/.bashrc
      
-* 6. Enter the following command
+* 6.Enter the following command
 
    * $ sudo dpkg --add-architecture armhf  
    * $ sudo dpkg --add-architecture armhf  
@@ -100,18 +100,19 @@
    * $ wget https://github.com/ROBOTIS-GIT/OpenCR-Binaries/raw/master/turtlebot3/ROS2/latest/opencr_update.tar.bz2   
    * $ tar -xvf opencr_update.tar.bz2
      
-* 7. ssh username@rasberry pi IP#On the your pc terminal
-* 8. Enter the following command
+* 7.ssh username@rasberry pi IP#On the your pc terminal
+* 8.Enter the following command
    * $ export TURTLEBOT3_MODEL=burger
    * $ ros2 launch turtlebot3_bringup robot.launch.py
 * 9.check your ROS_DOMAIN_ID#On the P_C and rasberry pi
   
   * $ export ROS_DOMAIN_ID=30 
   * $ export RMW_IMPLEMENTATION=rmw_fastrtps_cpp
-* 10. Enter the following command#On the PC(ubuntu22.04)
+* 10.Enter the following command#On the PC(ubuntu22.04)
   * $ export TURTLEBOT3_MODEL=${TB3_MODEL}
   * $ ros2 run turtlebot3_teleop teleop_keyboard
-
+* References
+   https://emanual.robotis.com/docs/en/platform/turtlebot3/quick-start/#pc-setup
   
 
 
