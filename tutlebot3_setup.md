@@ -2,7 +2,10 @@
 ## Install ros deb and turtlebot3 deb(on the PC)
   * open your microsoft store downlond ubuntu22.04
 ## On the PC terminal(ubuntu22.04)
-**Visit** the (https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html) page
+**Visit** the (https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html) page  
+```
+sudo apt install ros-humble-gazebo-*
+```
   * $ sudo apt install ros-humble-gazebo-*  
   * $ sudo apt install ros-humble-cartographer
   * $ sudo apt install ros-humble-cartographer-ros
