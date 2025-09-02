@@ -2,23 +2,43 @@
 ## 請先完成 turtlebot3_setup
 ## 攝影
 * **在raspberry pi上**
-    * $ ssh username@ip 
-    * $ ros2 launch turtlebot3_bringup camera.launch.py format:=RGB888
+```
+ssh username@ip# ex:ssh user@192.168.103.136
+```
+```
+ ros2 launch turtlebot3_bringup camera.launch.py format:=RGB888
+```
 * **在pc上(ubuntu 24.04)**
-    * $ rqt
+```
+  rqt
+```
 ## 建構地圖
 * **在raspberry pi上**
-    * $ echo 'export LDS_MODEL=LDS-01' >> ~/.bashrc # If you are using LDS-01
+  ```
+     echo 'export LDS_MODEL=LDS-01' >> ~/.bashrc # If you are using LDS-01
+  ```
 * **在raspberry pi上**
-    * $ export TURTLEBOT3_MODEL=burger
-    * $ ros2 launch turtlebot3_bringup robot.launch.py
+  ```
+  export TURTLEBOT3_MODEL=burger
+  ```
+  ```
+   ros2 launch turtlebot3_bringup robot.launch.py
+  ```
 * **在pc上(ubuntu 22.04)(需要兩個視窗)**
     * 第1個視窗
-    * $ export TURTLEBOT3_MODEL=burger
-    * $ ros2 launch turtlebot3_cartographer cartographer.launch.py
+      ```
+       export TURTLEBOT3_MODEL=burger
+      ```
+      ```
+      ros2 launch turtlebot3_cartographer cartographer.launch.py
+      ```
     * 第2個視窗
-    * $ export TURTLEBOT3_MODEL=burger
-    * $ ros2 run turtlebot3_teleop teleop_keyboard
+      ```
+       export TURTLEBOT3_MODEL=burger
+      ```
+      ```
+      ros2 run turtlebot3_teleop teleop_keyboard
+      ```
 ## 錯誤紀錄
 * **相關資料**
     * 官網: https://emanual.robotis.com/docs/en/platform/turtlebot3/sbc_setup/#sbc-setup
