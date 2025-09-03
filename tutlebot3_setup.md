@@ -95,7 +95,7 @@
 * 2.Enter your username and password
 * 3.open your pc terminal,Enter the
 ```
-    ssh username@rasberry pi IP
+    ssh username@rasberry pi IP# ex:ssh user@192.168.103.136
 ```
 * 4.Enter the following command
 ```
