@@ -7,9 +7,6 @@
   sudo apt install ros-humble-gazebo-*
 ```
 ```
-  sudo apt install ros-humble-gazebo-*
-```
-```
   sudo apt install ros-humble-cartographer
 ```
 ```
