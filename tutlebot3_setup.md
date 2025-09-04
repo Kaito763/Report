@@ -94,6 +94,7 @@
 ```
     ssh username@rasberry pi IP# ex:ssh user@192.168.103.136
 ```
+**Visit** the (https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html) page  
 * 4.Enter the following command
 ```
    sudo apt install python3-argcomplete python3-colcon-common-extensions libboost-system-dev build-essential
